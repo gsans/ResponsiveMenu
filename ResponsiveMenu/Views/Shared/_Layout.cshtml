@@ -13,9 +13,11 @@
     <![endif]-->
 </head>
 <body>
-    @Html.Partial("TopMenu")
+    <div class="wrapper">
+        @Html.Partial("TopMenu")
 
-    @RenderBody()
+        @RenderBody()
+    </div>
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)

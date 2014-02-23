@@ -4,9 +4,42 @@
 
 @media only screen and (max-width: 850px) {
 
+    .wrapper {
+    }
 
     h2 {
       color: @color;
+    }
+
+    /*navigation*/ 
+    #primary_nav ul {
+        list-style: none;
+        background: #1c1c1c;
+        padding: 5px 0;
+    }
+ 
+    #primary_nav li a {
+        display: block;
+        padding: 0 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        letter-spacing: 0.1em;
+        line-height: 2em;
+        height: 2em;
+        border-bottom: 1px solid #383838;
+    }
+ 
+    #primary_nav li:last-child a {
+        border-bottom: none;
+    }
+ 
+    #primary_nav li a:hover,
+    #primary_nav li a:focus {
+        color: #1c1c1c;
+        background: #ccc;
     }
 
 }
