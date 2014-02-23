@@ -16,5 +16,15 @@ namespace ResponsiveMenu.Controllers
             return View();
         }
 
+        public ActionResult Team()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
     }
 }
